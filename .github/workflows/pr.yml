@@ -29,7 +29,6 @@ jobs:
 
             const userPRs = data.filter(pr => pr.user.login === creator);
 
-            // Jos vain 1 PR löytyy, se on tämä juuri avattu
             return userPRs.length === 1;
           result-encoding: string
 
